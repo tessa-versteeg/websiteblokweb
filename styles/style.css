@@ -1,5 +1,62 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
 }
 
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: deeppink;
+    padding: 90px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    font-family: georgia;
+    text-transform: uppercase;
+/*    background-image: url(style.css)*/
+}
+
+.logo {
+    width: 50%;
+    height: auto;
+}
+
+.navigatie {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgrey;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 30px 30px;
+    font-size: 20px;
+    font-family: georgia;
+}
+
+/*
+li a:hover {
+    background-color: darkgrey;
+}
+*/
+
+h2 {
+    font-family: georgia;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
