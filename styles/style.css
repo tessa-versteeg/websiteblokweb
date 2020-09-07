@@ -3,6 +3,12 @@
 *::after,
 *::before {
     box-sizing: border-box;
+    /*
+    padding: 0px;
+    margin: 0px;
+*/
+    text-decoration: none;
+    list-style: none;
 }
 
 body {
@@ -13,50 +19,116 @@ body {
 
 header {
     background-color: deeppink;
-    padding: 90px;
-    margin: 0px;
+    padding: 50px;
     text-align: center;
     color: white;
-    font-size: 27px;
-    font-family: georgia;
+    font-size: 5px;
     text-transform: uppercase;
-/*    background-image: url(style.css)*/
+}
+
+h1 {
+    font-size: 17px;
+    font-family: 'Biryani', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-size: 10px;
+    font-family: 'Biryani', sans-serif;
 }
 
 .logo {
-    width: 50%;
+    width: 110%;
     height: auto;
 }
 
-.navigatie {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: lightgrey;
+nav {
+    background-color: silver;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Biryani', sans-serif;
+    min-height: 10vh;
+    color: whitesmoke;
 }
 
-li {
-    float: left;
+.menu {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 18px;
 }
 
-li a {
-    display: block;
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.hamburger {
+    height: 35px;
+    width: 35px;
+    align-items: center;
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .nav {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 10vh;
+        background-color: silver;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        opacity: 0;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+}
+
+
+#blok1 {
+    position: relative;
+}
+
+#blok1 {
+    position: static;
+    bottom: 1em;
+    right: 1em;
+    left: 1em;
+    margin: 83px;
+    background-color: lightgray;
+    padding: 10px;
+    border: solid grey 5px;
+    width: 20em;
     text-align: center;
-    padding: 30px 30px;
-    font-size: 20px;
-    font-family: georgia;
+    left: 5.5em;
 }
 
-/*
-li a:hover {
-    background-color: darkgrey;
+#blok2 {
+    position: relative;
 }
-*/
 
-h2 {
-    font-family: georgia;
-    font-size: 30px;
+#blok2 {
+    position: static;
+    top: 29em;
+    right: 1em;
+    left: 1em;
+    margin: 83px;
+    background-color: lightgray;
+    padding: 10px;
+    border: solid grey 5px;
+    width: 20em;
     text-align: center;
-    padding: 30px;
+    left: 5.5em;
 }
