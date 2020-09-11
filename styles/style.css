@@ -11,13 +11,18 @@
     list-style: none;
 }
 
+
 body {
     background-color: whitesmoke;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
+    display: flex;
+    flex-direction: column;
     background-color: deeppink;
     padding: 50px;
     text-align: center;
@@ -26,14 +31,14 @@ header {
     text-transform: uppercase;
 }
 
-h1 {
-    font-size: 17px;
+header h1 {
+    font-size: 4em;
     font-family: 'Biryani', sans-serif;
     font-weight: bold;
 }
 
-p {
-    font-size: 10px;
+header p {
+    font-size: 2.5em;
     font-family: 'Biryani', sans-serif;
 }
 
@@ -42,13 +47,27 @@ p {
     height: auto;
 }
 
-nav {
-    background-color: silver;
+nav ul li a {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 5px 0;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
     font-family: 'Biryani', sans-serif;
-    min-height: 10vh;
+}
+
+nav ul li a:hover {
+    color: dimgrey;
+}
+
+nav {
+    background-color: silver;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Biryani', sans-serif;
     color: whitesmoke;
 }
 
@@ -56,7 +75,8 @@ nav {
     color: white;
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 18px;
+    font-size: 1.3em;
+    margin-left: 1.5em;
 }
 
 .nav {
@@ -65,7 +85,7 @@ nav {
     width: 60%;
     letter-spacing: 2px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 0.9em;
 }
 
 .hamburger {
@@ -73,6 +93,7 @@ nav {
     width: 35px;
     align-items: center;
     display: none;
+    margin-right: 1.5em;
 }
 
 @media screen and (max-width:768px) {
@@ -94,41 +115,36 @@ nav {
     }
 }
 
-}
-
-
-#blok1 {
-    position: relative;
-}
-
-#blok1 {
-    position: static;
-    bottom: 1em;
-    right: 1em;
-    left: 1em;
-    margin: 83px;
-    background-color: lightgray;
-    padding: 10px;
-    border: solid grey 5px;
-    width: 20em;
+.heading {
+    font-family: 'Biryani', sans-serif;
     text-align: center;
-    left: 5.5em;
+    margin-top: 1.5em;
 }
 
-#blok2 {
-    position: relative;
+main img {
+    width: 300px;
+    height: 290px;
+    margin: 0;
+    padding: 0 10px 20px 20px;
 }
 
-#blok2 {
-    position: static;
-    top: 29em;
-    right: 1em;
-    left: 1em;
-    margin: 83px;
-    background-color: lightgray;
-    padding: 10px;
-    border: solid grey 5px;
-    width: 20em;
-    text-align: center;
-    left: 5.5em;
+article {
+    border-bottom: solid dimgrey 2px;
+    margin: 5px;
+}
+
+article h2 {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Biryani', sans-serif;
+}
+
+article p {
+    font-size: 12px;
+    padding: 8px;
+    float: right;
+    margin-right: 30px;
+    border: solid black 2px;
+    border-radius: 10px;
+    background: lightgray;
 }
