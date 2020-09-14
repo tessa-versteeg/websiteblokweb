@@ -114,7 +114,7 @@ nav ul li a:hover {
         display: none;
         width: 100%;
     }
-    
+
     .nav.show {
         display: flex;
     }
@@ -124,9 +124,50 @@ nav ul li a:hover {
     }
 }
 
+/* Content Styling pagina van de Homepagina */
+p {
+    justify-content: center;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    margin: 20px;
+}
 
-/* Content Styling */
+section {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+section h3 {
+    border: solid black 3px;
+    padding: 30px;
+    color: lightgrey;
+    background-color: lightgrey;
+    margin: 20px;
+    justify-content: center;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.fotos {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+/* Content Styling pagina van de smaken */
 .heading {
+    font-family: 'Biryani', sans-serif;
+    text-align: center;
+    margin-top: 5em;
+}
+
+h2 {
     font-family: 'Biryani', sans-serif;
     text-align: center;
     margin-top: 1.5em;
@@ -141,7 +182,7 @@ main img {
 
 article {
     border-bottom: solid dimgrey 2px;
-    margin: 5px; 
+    margin: 5px;
 }
 
 article h2 {
@@ -158,4 +199,22 @@ article p {
     border: solid black 2px;
     border-radius: 10px;
     background: lightgray;
+}
+
+/* Footer Styling */
+footer {
+    background-color: silver;
+    padding: 55px;
+    margin-top: 160px;
+}
+
+.iconen {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: silver;
+    font-size: 50px;
+    text-align: center;
 }
