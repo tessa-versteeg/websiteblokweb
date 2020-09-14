@@ -58,7 +58,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je startniveau:** Blauwe piste
 
-**Je focus:** Responsive
+**Je focus:** Responsive en ik vind de website lelijk dus ga ik de website mooier maken en het logo wil ik gaan proberen te animeren.
 
 **Je opdracht:** Ik ga de website van de ijssalon waar ik werk namaken. De site is wat verouderd dus ik zie hier wel een uitdaging in om de website gelijk weer up to date te krijgen. Ik ga het eerst namaken en als dat lukt ga ik aanpassingen in de site doorvoeren. Dit is de link naar de site zoals het nu is- http://www.ijssalondongelato.nl
 

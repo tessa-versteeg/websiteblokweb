@@ -11,7 +11,7 @@
     list-style: none;
 }
 
-
+/* Algemene Dingen */
 body {
     background-color: whitesmoke;
     margin: 0;
@@ -20,11 +20,13 @@ body {
     flex-direction: column;
 }
 
+
+/* Header Styling */
 header {
     display: flex;
     flex-direction: column;
     background-color: deeppink;
-    padding: 50px;
+    padding: 35px;
     text-align: center;
     color: white;
     font-size: 5px;
@@ -47,6 +49,18 @@ header p {
     height: auto;
 }
 
+
+/*  Nav Styling */
+nav {
+    background-color: silver;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Biryani', sans-serif;
+    color: whitesmoke;
+}
+
 nav ul li a {
     display: flex;
     justify-content: space-around;
@@ -62,21 +76,13 @@ nav ul li a:hover {
     color: dimgrey;
 }
 
-nav {
-    background-color: silver;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'Biryani', sans-serif;
-    color: whitesmoke;
-}
 
 .menu {
     color: white;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 1.3em;
-    margin-left: 1.5em;
+    margin-left: 2em;
 }
 
 .nav {
@@ -89,25 +95,28 @@ nav {
 }
 
 .hamburger {
+    border: 0;
+    background-color: transparent;
+    display: none;
     height: 35px;
     width: 35px;
     align-items: center;
     display: none;
-    margin-right: 1.5em;
+    margin-right: 2em;
 }
 
-@media screen and (max-width:768px) {
+.hamburger:focus {
+    outline: none;
+}
+
+@media screen and (max-width:767px) {
     .nav {
-        position: absolute;
-        right: 0px;
-        height: 92vh;
-        top: 10vh;
-        background-color: silver;
-        margin: 0px;
+        display: none;
+        width: 100%;
+    }
+    
+    .nav.show {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        opacity: 0;
     }
 
     .hamburger {
@@ -115,6 +124,8 @@ nav {
     }
 }
 
+
+/* Content Styling */
 .heading {
     font-family: 'Biryani', sans-serif;
     text-align: center;
@@ -130,7 +141,7 @@ main img {
 
 article {
     border-bottom: solid dimgrey 2px;
-    margin: 5px;
+    margin: 5px; 
 }
 
 article h2 {
