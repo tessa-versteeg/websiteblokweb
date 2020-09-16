@@ -38,15 +38,23 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Eigenlijk ging het namaken van mijn website wel goed. Ik heb vooral gekeken ook naar hoe ik de website mooier kon maken. Ik heb daarom ook wat dingen weg gelaten en dingen anders gedaan. 
+
+Wel heb ik met de navigatie een hamburger menu, ik weet alleen niet zo goed hoe ik die werkend moet krijgen. Ik heb wel de website responsive dus op desktop zie je het menu gewoon in de balk. En op mobiel verdwijnt deze in een hamburger menu. Alleen moet ik dit nog met Javascript gaan animeren. 
+
+Ik moet even opzoeken hoe ik dat moet gaan doen met CSS of met Javascript. Ik heb wel veel tutorials gekeken maar ik kom er niet uit.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![voortgang1](images/voortgang1.png)
+![voortgang2](images/voortgang2.png)
+![voortgang3](images/voortgang3.png)
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+Wij willen graag met ons groepje naar iedereen zijn website en code kijken en dan feedback geven dat vonden wij vorige les goed werken. 
+
+Ook als we ergens niet uitkomen zoals ik met dat hamburger menu, dan willen we dat in het gesprek aankaarten en kijken of we elkaar kunnen helpen.
 
 ### Verslag van meeting
 
