@@ -58,7 +58,15 @@ Ook als we ergens niet uitkomen zoals ik met dat hamburger menu, dan willen we d
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Ik vond het een nuttige meeting, we hebben naar de code van Shantalla en Muhammet gekeken. Niet naar die van mij maar ik vond dit juist wel interessant om samen naar de code van anderen te kijken. Ik heb actief meegedaan en heb daadwerkelijk veel geleerd.
+
+Kris heeft een aantal keer iets gezegt over float, en zijn quote over het algemeen van deze meeting was: "Iewl float, Flexbox it is"
+
+Flexbox is een krachtige tool om elementen te positioneren. Er zijn zoveel manieren om met flexbox dingen op z'n plek te krijgen. Dit heb ik ook gezien in de website van Muhammet. 
+
+Ook in mijn website kan ik heel veel flexbox gebruiken om alles op z'n plek te krijgen.
+
+Nog een ding dat ik geleerd heb ik het vishaakje. Als je die gebruikt kan je een specifiek element gaan stylen.
 
 
 
