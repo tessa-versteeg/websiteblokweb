@@ -137,14 +137,29 @@ section {
     flex-direction: column;
 }
 
+.flex-container {
+    display: flex;
+    background-color: silver;
+}
+
+.flex-container > h3 {
+    margin: 10px;
+    padding: 20px;
+    font-family: sans-serif;
+    background-color: #f1f1f1;
+}
+
 section h3 {
     padding: 50px;
     margin: 20px;
     font-family: sans-serif;
     font-weight: lighter;
-    border: solid black 3px;
-    justify-content: center;
     text-align: center;
+}
+
+section article img {
+    width: 8em;
+    height: 7em;
 }
 
 .fotos {
@@ -164,6 +179,7 @@ section h3 {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 
 
 
