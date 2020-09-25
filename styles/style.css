@@ -3,13 +3,10 @@
 *::after,
 *::before {
     box-sizing: border-box;
-    /*
-    padding: 0px;
-    margin: 0px;
-*/
     text-decoration: none;
     list-style: none;
 }
+
 
 
 
@@ -17,10 +14,10 @@
 body {
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
+    font-family: 'Biryani', sans-serif;
     background-color: whitesmoke;
 }
+
 
 
 
@@ -38,7 +35,6 @@ header {
 
 header h1 {
     font-size: 4em;
-    font-family: 'Biryani', sans-serif;
     font-weight: bold;
 }
 
@@ -47,10 +43,43 @@ header p {
     font-family: 'Biryani', sans-serif;
 }
 
-.logo {
-    width: 110%;
-    height: auto;
+.tekst-logo {
+    font-size: 9em;
 }
+
+#top {
+    animation: top 1.5s ease 2;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#bottom {
+    animation: bottom 1.5s ease 2;
+    transform-origin: center;
+}
+
+@keyframes top {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(-360deg);
+    }
+}
+
+@keyframes bottom {
+    from {
+        transform: rotateZ();
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+/* bron animatie: https://www.youtube.com/watch?v=gWai7fYp9PY */
+
 
 
 
@@ -58,7 +87,6 @@ header p {
 nav {
     padding: 1em;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     font-family: 'Biryani', sans-serif;
@@ -116,6 +144,7 @@ nav ul li a:hover {
 
 
 
+
 /* Content Styling pagina van de Homepagina */
 .heading {
     margin-top: 5em;
@@ -136,30 +165,27 @@ section {
     flex-direction: column;
 }
 
-article {
-    margin: 1em;
-    border-bottom: solid grey 2px;
-}
-
-.flex-container {
+section > article {
+    margin: 1.5em;
     display: flex;
-    background-color: silver;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
 }
 
 main img {
     max-width: 100%;
+    padding: 0.5em;
 }
 
 .flex-container > h3 {
     margin: 0.5em;
     padding: 1em;
     font-family: sans-serif;
-    background-color: #f1f1f1;
 }
 
 section h3 {
     font-family: sans-serif;
-    font-weight: lighter;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -169,7 +195,6 @@ section article img {
 }
 
 section.fotos {
-    width: 90%;
     margin: 1.5em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -177,7 +202,28 @@ section.fotos {
 }
 
 
+
+
 /* Content Styling pagina van de smaken */
+main > ul {
+    padding: 0.5em;
+    margin: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid lightgrey;
+    border-radius: 0.5em;
+}
+
+main > ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+main > ul li a:hover {
+    color: black;
+}
+
 .heading2 {
     margin-top: 1.5em;
     font-family: 'Biryani', sans-serif;
@@ -192,6 +238,11 @@ h2 {
 
 article > img {
     max-width: 100%;
+}
+
+main > article {
+    margin: 1em;
+    border-bottom: solid grey 2px;
 }
 
 article h2 {
@@ -209,6 +260,7 @@ article p {
     border-radius: 1em;
     background: lightgray;
 }
+
 
 
 
@@ -269,15 +321,13 @@ footer button:hover {
 }
 
 .social-media {
-    padding: 20px;
-    margin-top: 70px;
-    margin-left: 80px;
+    margin-top: 3.7em;
+    margin-left: 2em;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
     align-items: center;
     background-color: silver;
-    font-size: 30px;
+    font-size: 1.8em;
     text-align: center;
 }
 
