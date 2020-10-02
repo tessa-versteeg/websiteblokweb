@@ -30,7 +30,27 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+Het gaat eigenlijk best goed met het maken van mijn website. Ik heb de homepage zo goed als responsive, er zijn nog een paar kleine dingetjes zoals de nieuwsberichten die ik op desktop anders wil vormgeven maar daar heb ik wel vertrouwen in dat het gaat lukken. 
+
+Ook heb ik een beetje geexpirimenteerd met SVG animeren. Ik heb het logo geanimeerd en een SVG van een regenwolk, nu lijkt het echt of het regent.
+
+Ik heb nog steeds geen werkend hamburger menu, ik heb meerdere keren dingen geprobeerd maar het lukt me gewoon niet om het mooi te krijgen. Dus dat is iets wat ik tijdens het voortgangsgesprek deze week wel wil aankaarten.
+
+En nog iets wat ik appart vind, is dat op de pagina van de smaken de afbeeldingen niet meeschalen met de pagina. Ik kan zo snel niet vinden waar dat aan ligt want ik heb hetzelfde gedaan als op de homepage en daar schaalt het wel mooi mee.
+
+**Screenshot(s):**
+
+![voortgang1.1](images/voortgang/voortgang1.1.png)
+![voortgang2.2](images/voortgang/voortgang2.2.png)
+
+
+### Agenda voor meeting 2
+
+Wij hebben met ons groepje C even besproken waar we allemaal tegen aan lopen en dat is het hamburger menu werkend krijgen. En er zijn een aantal mensen die moeite hebben met responisve design van de navbar, dit samen is denk ik wel een goed idee om samen aan te werken en naar te kijken.
+
+En zelf zit ik nog met het feit dat mijn smaken pagina niet responsive werkt, ik kan ook niet een twee drie zien waar dat aan ligt want ik heb hetzelfde gedaan als op de homepage.
+
+### Verslag van meeting 2
 
 
 
@@ -50,13 +70,13 @@ Ik moet even opzoeken hoe ik dat moet gaan doen met CSS of met Javascript. Ik he
 ![voortgang2](images/voortgang2.png)
 ![voortgang3](images/voortgang3.png)
 
-### Agenda voor meeting
+### Agenda voor meeting 1
 
 Wij willen graag met ons groepje naar iedereen zijn website en code kijken en dan feedback geven dat vonden wij vorige les goed werken. 
 
 Ook als we ergens niet uitkomen zoals ik met dat hamburger menu, dan willen we dat in het gesprek aankaarten en kijken of we elkaar kunnen helpen.
 
-### Verslag van meeting
+### Verslag van meeting 1
 
 Ik vond het een nuttige meeting, we hebben naar de code van Shantalla en Muhammet gekeken. Niet naar die van mij maar ik vond dit juist wel interessant om samen naar de code van anderen te kijken. Ik heb actief meegedaan en heb daadwerkelijk veel geleerd.
 
