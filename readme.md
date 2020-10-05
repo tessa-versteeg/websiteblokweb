@@ -52,6 +52,9 @@ En zelf zit ik nog met het feit dat mijn smaken pagina niet responsive werkt, ik
 
 ### Verslag van meeting 2
 
+Na deze meeting is mijn hamburger menu gefixt. We  hadden met het groepje eigenlijk allemaal het probleem dat we niet wisten hoe we dat moesten doen. Dat kwam ook doordat de stof van de eerste week over postion:absolute weer was weggezakt. Maar door samen gekeken te hebben ernaar snap ik het nu weer en denk ik oh ja zo moest het.
+
+Wat is nu nog verder moet doen is het perfectioneren van de smaken pagina. En ik ga nog wat spelen met animaties denk ik.
 
 
 ## Voortgang 1 (week 3)
