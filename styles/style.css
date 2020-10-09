@@ -200,7 +200,7 @@ section article img {
 }
 
 section article svg {
-    width: 8em;
+    width: 13em;
     height: auto;
     padding: 0.5em;
 }
@@ -346,7 +346,7 @@ article svg.glutenicon {
     border: none;
 }
 
-@media (min-width:30em) {
+@media (min-width:23em) {
     article {
         grid-template-columns: 1fr;
     }
@@ -355,7 +355,7 @@ article svg.glutenicon {
         grid-column: 1 / -1;
     }
 
-    .tekstwolk {
+    p.tekstwolk {
         display: none;
     }
 
@@ -376,7 +376,7 @@ article svg.glutenicon {
     }
 
     p.tekstwolk {
-        padding: 4em;
+        padding: 2em;
         display: flex;
         align-self: flex-start;
     }

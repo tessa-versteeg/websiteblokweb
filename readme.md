@@ -24,7 +24,23 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Het gaat goed met mijn website. Ik ben bijna klaar, ik moet alleen nog een paar animaties toevoegen/maken. Ik wil bijvoorbeeld het icoon van lactosevrij om de zoveel seconden laten afwisselen met het icoon van glutenvrij. 
+
+En ik wil bij de mobiele versie van de smaken pagina de 'meer informatie' knop animeren dat er een soort pop-up in het scherm komt van de allergieen en andere nodige informatie.
+
+Ik vind zelf dat ik in deze 6 weken weer heel veel heb geleerd en dan vooral door de opdrachten van Sanne en de door Joost gegeven aanvullende lessen daarbij. Maar ook door zelf veel te oefenen en proberen in mijn code. 
+
+**Screenshot(s):**
+![voortgang1.2](images/voortgang/voortgang1.2.png)
+
+### Agenda voor meeting 2
+
+Deze week hebben we met ons groepje besloten om naar de code van Bo te gaan kijken. Bo heeft een aantal display:grid probleempjes waar ze niet uitkomt. En ik denk dat het over het algemeen in deze fase misschien wel handig is om daar nogmaals goed naar te kijken.
+
+Want met het responsive maken van onze sites is grid gewoon een hele sterke tool. Ik heb zelf voor de aanvang van deze les nog wat gespeeld met grid in mijn website. En dat is mij wel gelukt.
+
+
+### Verslag van meeting 2
 
 
 
