@@ -6,25 +6,29 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. https://www.youtube.com/watch?v=gWai7fYp9PY (animatie)
+2. https://www.youtube.com/watch?v=XH5OW46yO8I (pop-up)
+3. https://www.youtube.com/watch?v=MBaw_6cPmAw (pop-up)
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Ik heb voor mijn gevoel heeeel veel uur in dit vak gestoken. Iedere keer lukte er wel iets niet maar door veel proberen is het uiteindelijk wel goed gekomen.
+
+In mijn eindresultaat heb ik een laatste item toegevoegd namelijk de pop-up. Met maar een paar code javascript heb ik dat uiteindelijk na veel proberen en mislukken voor elkaar gekregen. Dit was het focuspunt waar ik nog aandacht aan wilden besteden. Ik wilde ook nog iets doen met animatie van de lactose en gluteniconen maar daar ben ik niet aan toegekomen.
 
 **Screenshot(s):**
-
--screenshot(s) van je eindresultaat-
+![voortgangeind](images/voortgang/voortgangeind.png)
+![voortgangeind1](images/voortgang/voortgangeind1.png)
+![voortgangeind2](images/voortgang/voortgangeind2.png)
+![voortgangeind3](images/voortgang/voortgangeind3.png)
 
 
 
 ## Voortgang 3 (week 6)
 
-Het gaat goed met mijn website. Ik ben bijna klaar, ik moet alleen nog een paar animaties toevoegen/maken. Ik wil bijvoorbeeld het icoon van lactosevrij om de zoveel seconden laten afwisselen met het icoon van glutenvrij. 
+Het gaat goed met mijn website. Ik ben bijna klaar, ik moet alleen nog een paar animaties toevoegen/maken. 
 
 En ik wil bij de mobiele versie van de smaken pagina de 'meer informatie' knop animeren dat er een soort pop-up in het scherm komt van de allergieen en andere nodige informatie.
 
@@ -41,7 +45,7 @@ Want met het responsive maken van onze sites is grid gewoon een hele sterke tool
 
 
 ### Verslag van meeting 2
-
+Na de meeting had ik vooral weer veel over grid geleerd. Het is toch echt een krachtige tool om te coderen.
 
 
 ## Voortgang 2 (week 5)

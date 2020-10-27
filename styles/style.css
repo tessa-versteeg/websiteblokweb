@@ -138,6 +138,7 @@ nav button.hamburger {
     display: flex;
     justify-content: center;
     z-index: 110;
+    cursor: pointer;
 }
 
 nav button.hamburger img {
@@ -280,6 +281,7 @@ main > ul {
     justify-content: space-around;
     border: 2px solid black;
     border-radius: 0.5em;
+    background-color: white;
 }
 
 main > ul li a {
@@ -298,7 +300,6 @@ main > h1 {
 }
 
 h2 {
-    margin-top: 1.5em;
     font-family: 'Biryani', sans-serif;
     text-align: center;
 }
@@ -311,20 +312,12 @@ article > p {
     align-self: flex-end;
 }
 
-article p {
-    padding: 0.5em;
-    font-size: 1em;
-    border: solid black 2px;
-    border-radius: 0.7em;
-    background: rgb(233, 233, 233);
-}
-
 main > article {
     display: grid;
     position: relative;
     justify-content: center;
     margin: 1em;
-    border-bottom: solid grey 2px;
+    margin-bottom: 2em;
 }
 
 article svg.lactoseicon {
@@ -334,16 +327,20 @@ article svg.lactoseicon {
     top: 0;
 }
 
-article svg.glutenicon {
-    display: none;
-    width: 3em;
-    position: absolute;
-    top: 0;
-}
-
 .tekstwolk {
     padding: 3em;
     border: none;
+    background-color: white;
+}
+
+main article button {
+    padding: 0.5em;
+    margin: 1em;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 0.7em;
+    background: rgb(233, 233, 233);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 @media (min-width:23em) {
@@ -385,11 +382,15 @@ article svg.glutenicon {
         grid-column: 2 / span 1;
         grid-row: second-line / 2;
     }
+
+    main article button {
+        display: none;
+    }
 }
 
 @media (min-width:75em) {
     article {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     article h2 {
@@ -404,6 +405,27 @@ article svg.glutenicon {
         display: inherit;
         align-self: center;
         padding: 4em;
+        margin-left: 4em;
+        margin-right: 18em;
+    }
+
+    main ul {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    main article button {
+        display: none;
+    }
+
+    article > img {
+        margin-left: 40%;
+        margin-bottom: 3em;
+    }
+    
+    article svg.lactoseicon {
+        margin-left: 20%;
+        margin-right: 20%;
     }
 }
 
@@ -411,6 +433,49 @@ article h2 {
     margin: 0;
     padding: 1em;
     font-family: 'Biryani', sans-serif;
+}
+
+/* Popup Styling */
+.popup-container {
+    position: fixed;
+    opacity: 0;
+    transition: 400ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+
+.popup-container.show {
+    opacity: 1;
+    pointer-events: auto;
+    transition: 400ms ease-in-out;
+}
+
+.popup-tekst {
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 350px;
+    max-width: 80%;
+    text-align: center;
+}
+
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
 }
 
 
@@ -424,13 +489,6 @@ footer {
 }
 
 @media (min-width:30em) {
-    footer {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (min-width:75em) {
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -474,6 +532,7 @@ footer button {
     font-family: 'Biryani', sans-serif;
     border: 1px solid gray;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 footer button:hover {
@@ -482,8 +541,11 @@ footer button:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-footer div {
-    justify-content: center;
+footer button:active {
+    background-color: deeppink;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transform: scaleX(0.9deg);
 }
 
 footer div img {
